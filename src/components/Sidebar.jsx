@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import './Sidebar.css'; 
 
 function Sidebar() {
   return (
-    <nav className="bg-light border-end p-3" style={{ width: '200px' }}>
+    <nav className="sidebar_container border-end p-3" style={{ width: '200px' }}>
       <ul className="nav flex-column">
         <li className="nav-item">
           <Link className="nav-link" to="/">Dashboard</Link>

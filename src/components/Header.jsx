@@ -1,8 +1,9 @@
 import React from "react";
+import './Header.css';
 
 function Header() {
     return (
-        <header className="bg-primary text-white p-3 d-flex align-items-center justify-content-between">
+        <header className="header-container text-white p-3 d-flex align-items-center justify-content-between">
 
                         <div className="d-flex align-items-center">
                             <h1>ABC School</h1>
@@ -21,11 +22,11 @@ function Header() {
                         </form>
 
                         {/* Right: Nav Menu & Enroll Button */}
-            <nav className="d-flex align-items-center">
-                <a href="/" className="text-white mx-2 text-decoration-none">
+            <nav className="nav-menu d-flex align-items-center">
+                <a href="/" className="mx-2 text-decoration-none">
                     Home
                 </a>
-                <a href="/about" className="text-white mx-2 text-decoration-none">
+                <a href="/about" className="mx-2 text-decoration-none">
                     About
                 </a>
                 <button className="btn btn-light text-primary ms-3">Enroll</button>

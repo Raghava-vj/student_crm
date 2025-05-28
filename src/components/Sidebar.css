@@ -1,0 +1,18 @@
+
+.sidebar_container{
+    background-color: cornflowerblue;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    color: coral;
+    background-color: rgb(61, 114, 212);
+}

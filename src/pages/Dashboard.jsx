@@ -1,8 +1,7 @@
 function Dashboard() {
   return (
-    <div>
+    <div className="text-primary">
       <h3>Dashboard</h3>
-      <p>Welcome to the student CRM system!</p>
     </div>
   );
 }

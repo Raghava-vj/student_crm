@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import './Students.css';
 
 function Students() {
   const [students, setStudents] = useState([]);
@@ -56,7 +57,7 @@ function Students() {
   };
 
   return (
-    <div>
+    <div className='student_container'>
       <h3 className="mb-3">Students</h3>
       <Button variant="primary" onClick={() => handleShow()}>Add Student</Button>
       <table className="table table-striped table-hover mt-3">
